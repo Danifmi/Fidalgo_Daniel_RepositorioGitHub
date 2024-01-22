@@ -1,0 +1,192 @@
+
+.horadetatuarse{
+    position: relative;
+    width: 100%;
+    background-image: url(://i.pinimg.com/originals/46/25/d5/4625d5f337921e6593b7fc2995f2c265.jpg);
+    overflow:hidden;
+    height: max(150px, 15vw);
+}
+
+.hora__imagen{
+    width: 100%;
+
+}
+
+.hora__link--2{
+    font-family: sans-serif;
+    font-size: max(10px, 2vw);
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.792);
+    color: darkred;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    transform: translate(-50%, -50%);
+}
+
+.hora__link--2:hover{
+    background-color: rgba(0, 0, 0, 0.167);
+}
+
+.estilostatu{
+    padding: 10px;
+}
+
+.estilo__tit{
+    font-size: max(50px, 3vw);
+    text-align: center;
+}
+
+.estilo-flex{
+    display:flex;
+    padding: 10px;
+}
+
+.estilo__trady, .estilo__ignorant, .estilo__geometricos{
+    font-size: max( 15px, 1.5vw);
+    font-weight: 600;
+    margin: 10px;
+    padding: 20px;
+    width: max(30px, 30vw);
+    overflow:hidden;
+    
+}
+
+.trady__img, .ignorant__img, .geo__img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.trady__tit, .ignorant__tit, .geo__tit{
+    text-align: center;
+}
+
+/* .estilos__links{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    align-items: center;
+} */
+.trady__link, .ignorant__link, .geo__link {
+    font-family: sans-serif;
+    display: block;
+    font-size: max( 10px, 1vw);
+    font-weight: 600;
+    color:black;
+    margin: 10px;
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.trady__link:hover, .ignorant__link:hover, .geo__link:hover{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.Tatuadores{
+    padding: 10px;
+}
+
+.Tatuadores__tit{
+    font-size: max(50px, 3vw);
+    text-align: center;
+}
+.Tatuadores-flex{
+    display: flex;
+    padding: 10px;
+}
+
+.Tatuadores__1, .Tatuadores__2, .Tatuadores__3, .Tatuadores__4{
+    font-size: max( 15px, 1.5vw);
+    font-weight: 600;
+    margin: 10px;
+    padding: 20px;
+    overflow:hidden;
+    width: max(30px, 30vw);
+    text-align: center;
+}
+
+.Tatuadores__img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 300px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Tatuadores__link{
+    font-family: sans-serif;
+    display: block;
+    font-size: max( 10px, 1vw);
+    font-weight: 600;
+    color:black;
+    margin: 10px;
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.Tatuadores__link:hover{
+    background-color: rgba(0, 0, 0, 0.167);
+}
+
+footer{
+    background-color: darkred;
+    width: 100%;
+    padding: 20px;
+}
+
+.links-footer{
+    padding: 10px;
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+}
+ 
+.link-footer__1, .link-footer__2, .link-footer__3{
+    font-family: sans-serif;
+    font-size: max(10px, 1vw);
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+    width: 70%;
+    text-align: center;
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.link-footer__1:hover, .link-footer__2:hover, .link-footer__3:hover{
+    background-color: rgb(154, 11, 11);
+}
+.Contáctanos{
+    padding: 10px;
+}
+
+.Contáctanos-flex{
+    display: block;
+    padding-top: 30px;
+}
+
+.Contáctanos__tit, .Contáctanos__dir{
+    font-size: max(10px, 2vw);
+    color: #ffffff;
+}
+
+.Contáctanos__map{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
