@@ -1,0 +1,97 @@
+/* Estilos para el carrito */
+#carrito-sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Inicialmente oculto fuera de la pantalla */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5vw;
+    padding-top: 2vw;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+#carrito-sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Estilos para el botón de toggle */
+#toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+#toggle-btn:hover {
+    background-color: #555;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .img_item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  .button:hover {
+    background-color: rgb(128, 10, 10);
+  }
+
+  .botoncarrito{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+
+  .botoncarrito:hover{
+    background-color: rgb(128, 10, 10);
+  }
+
+  .boton_crear{
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  .boton_crear:hover{
+    background-color: rgb(128, 10, 10);
+  }
